@@ -1,0 +1,229 @@
+/*
+Theme Name: Dazzling-Child
+Theme URI: rm913.github.io/portfolio
+Author: Lamaze-DC
+Author URI: lamaze-dc.com
+Template: dazzling
+Description: Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian, German, Persian, Lithuanian and Polish. It is Multilingual ready and compatible with WPML plugin. It is probably the best free WordPress theme built for eStores and business websites.
+Version: 1.5.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dazzling
+Domain Path: /languages/
+Tags: green, light, white, gray, black, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, responsive-layout, photoblogging, left-sidebar, translation-ready, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, theme-options, threaded-comments
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+Dazzling is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+*/
+@import url("../dazzling/style.css");
+/************************************Fonts********************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
+/*Clear Float */
+.clear{
+	clear: both;
+}
+
+/*Header */
+
+.navbar-header{
+	padding-top: .5em;
+	padding-bottom:.5em;
+}
+
+
+
+/*Header font styles */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #008080;
+	font-family: 'Courgette', cursive;
+	
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+}
+
+/* Navbar*/
+#menu-main-menu{
+  border: 3px solid #d0549f;
+  border-radius: 33%;
+  padding-right: 2%;
+  margin-top: 1%;
+  padding-left: 2%;
+  padding-top: 1em;
+  height: 7em;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #999;
+  background-image: url('http://localhost/lamaze.com/wordpress/wp-content/uploads/2015/07/nav-logo.png');
+  border-radius: 57%;
+  background-color: #e8e8e8;
+  background-repeat: no-repeat;
+  background-position: .3em 2em;
+  transition: opacity 0.5s linear;
+
+}
+/*Front Page */
+/*Main Section*/
+.top-main h1{
+	font-size: 4rem;
+}
+.top-main p{
+	font-size: 2rem;
+}
+/*Buttons*/
+.classes{
+  border: .2em solid lightgray;
+  border-radius: 19%;
+}
+.register{
+	margin-left: 2%;
+  	border: .2em solid #008080;
+  	border-radius: 19%;
+  	background-color: #008080;
+  	color: #fff;
+}
+/* Border */
+.border{
+  border-top: .3em solid #d0549f;
+  width: 62%;
+  margin: 0 auto;
+}
+
+.top-main~.border{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+/*How is Lamaze Different */
+.different{	
+	margin-top: 5em;
+	width: 90%;
+  	margin: 1.5em auto;
+  	font-size: 2rem;
+  	color: gray;
+}
+.different li{
+	list-style-type: circle;
+}
+#about-us{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#best-classes{
+	float: left;
+	width: 38%;
+	margin-top: 6%;
+}
+#best-classes img{
+	margin: 0 auto;
+	display: block;
+}
+#best-classes p{
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+	text-align: center;
+}
+#about-us~.border{
+	margin-top: 6%;
+}
+/*video*/
+iframe, object {
+	max-width: 60em;
+	max-height: 40em;
+	float: left;
+	width: 58%;
+	border: 1em solid rgba(0,0,0,.1);
+  	border-radius: 7%;
+  	margin-right: 4%
+}
+
+}
+/* Scroll to top button */
+
+.scroll-to-top:hover{
+	background: #008080;
+	}
+
+
+/***********Classes Page*************************
+********************************************************************************************/
+
+/* title */
+.entry-title{
+  text-align: center;
+  font-size: 5rem;
+  color: #008080;
+}
+nav.nav-classes li{
+	float: left;
+	width: 19%;
+	padding: 1%;
+	list-style-type: none;
+	background-color: rgba(0,0,0,.3);
+	margin-right: 2em;
+  	height: 4em;
+  	border-radius: 18%;
+  	text-align: center;
+  }
+  nav.nav-classes li:hover{
+  	background-color: rgba(0,0,0,.1);
+  	color: #d0549f;
+  }
+nav.nav-classes li a{
+	color: #fff;
+}
+
+
+
+
+/* changing the navigation styles for cols and rows */
+
+#post-14 .row{
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 1em;
+	width: 123%;
+
+}
+#post-14 .container{
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*take away space of sidebar in pages*/
+
+#primary{
+	width: 100%;
+}
+.content-area{
+	width: 100%;
+}
+.lamaze-symptoms{
+	float: left;
+}
+.class-header{
+	width: 100%;
+}
+.class-description{
+	width: 70%;
+	float: left;
+}
+.class-info{
+	float: left;
+	width: 30%;
+}
+#post-14 .border{
+	margin-top: 4em;
+	}
